@@ -1,0 +1,63 @@
+/* Shortcode Post Layout */
+.scp-post-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2fr, 2fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.scp-post-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.scp-post-card:hover {
+    transform: translateY(-6px);
+}
+
+.scp-post-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.scp-post-content {
+    padding: 20px;
+}
+
+.scp-post-title a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.scp-post-title a:hover {
+    color: #e91e63;
+}
+
+.scp-post-meta {
+    font-size: 13px;
+    color: #777;
+    margin: 8px 0;
+}
+
+.scp-post-excerpt {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.scp-read-more {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background: linear-gradient(45deg, #ff5f6d, #845ec2);
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
